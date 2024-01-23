@@ -45,7 +45,8 @@ Pkg.add([
     "RDatasets",
     "PyCall", 
     "JLD", 
-    "PyCallJLD"
+    "PyCallJLD",
+    "MLJ"
 ]);
 Pkg.precompile();
 '
