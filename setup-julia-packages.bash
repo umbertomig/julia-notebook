@@ -12,7 +12,37 @@ Pkg.update();
 Pkg.add([
     "HDF5",
     "IJulia",
-    "Pluto"
+    "Pluto",
+    "CSV",
+    "Plots",
+    "StatsPlots",
+    "GLM",
+    "DataFrames",
+    "LaTeXStrings", 
+    "Measures", 
+    "Makie",
+    "Statistics",
+    "LinearAlgebra",
+    "StatsBase",
+    "Distributions",
+    "HypothesisTests",
+    "KernelDensity",
+    "Lasso",
+    "Combinatorics",
+    "SpecialFunctions",
+    "Roots",
+    "GLM",
+    "Flux",
+    "Knet",
+    "LIBSVM",
+    "DecisionTree",
+    "NearestNeighbors",
+    "Clustering",
+    "MultivariateStats",
+    "TensorFlow",
+    "PlotlyJS",
+    "ScikitLearn",
+    "RDatasets"
 ]);
 Pkg.precompile();
 '
