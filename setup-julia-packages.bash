@@ -42,7 +42,10 @@ Pkg.add([
     "TensorFlow",
     "PlotlyJS",
     "ScikitLearn",
-    "RDatasets"
+    "RDatasets",
+    "PyCall", 
+    "JLD", 
+    "PyCallJLD"
 ]);
 Pkg.precompile();
 '
